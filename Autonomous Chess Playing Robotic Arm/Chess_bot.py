@@ -4,6 +4,8 @@ import numpy as np
 from numpy import*
 import time
 import pyfirmata
+import chess
+import chess.engine
 
 chessboard_1 = {'12.8':'R1', '15.7':'R2' , '18.3':'R3', '21.0':'R4',
               '23.5':'R5' ,'26.1':'R6','28.9':'R7','31.5':'R8'}
