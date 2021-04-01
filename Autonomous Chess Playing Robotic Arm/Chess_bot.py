@@ -7,6 +7,7 @@ import pyfirmata
 import chess
 import chess.engine
 
+
 chessboard_1 = {'12.8':'R1', '15.7':'R2' , '18.3':'R3', '21.0':'R4',
               '23.5':'R5' ,'26.1':'R6','28.9':'R7','31.5':'R8'}
               
@@ -53,7 +54,6 @@ present_squares_white   =   ['e2','g1','f1']
 sample_1 = []
 sample_2 = [0]
 game_played = []
-
 
 
 N = 0
